@@ -14,7 +14,7 @@ object WeaselIndividualObj {
     val compare_string = "methinks it is like a weasel"
 }
 
-class WeaselIndividual(_genes: String) extends Individual[Int, String] {
+class WeaselIndividual(_genes: String) extends Individual[Int, String] with Crossover[Int, String, WeaselIndividual] {
     assume(_genes.length == WeaselIndividualObj.compare_string.length)
 
     val representation = _genes
@@ -43,7 +43,15 @@ class WeaselIndividual(_genes: String) extends Individual[Int, String] {
         new WeaselIndividual(genes)
     }
 
-    // constructors
+    // crossover
+    def +(other: WeaselIndividual): WeaselIndividual = {
+        val genes: String = (0 to WeaselIndividualObj.compare_string.length - 1).map {
+            i => if (Random.nextFloat() > 0.5) representation(i).toString else other.representation(i).toString
+        }.reduce(_ + _)
+        new WeaselIndividual(genes)
+    }
+
+    // constructor
     def this() = this(WeaselIndividualObj.random_genes)
 }
 

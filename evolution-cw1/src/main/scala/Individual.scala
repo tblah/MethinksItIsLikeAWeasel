@@ -9,6 +9,6 @@ abstract class Individual[F, R] {
 }
 
 // allows crossover
-trait Crossover[T] {
-    def produce_offspring(other: T): T
+trait Crossover[F, R, T <: Individual[F, R]] {
+    def +(other: T): T
 }
