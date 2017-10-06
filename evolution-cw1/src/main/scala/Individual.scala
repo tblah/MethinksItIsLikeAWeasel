@@ -2,13 +2,13 @@
 
 // F is the fitness type
 // R is the representation type
-abstract class Individual[F, R] {
+abstract class Individual[F <% Ordered[F], R] {
     def fitness: F
     val representation: R
     def mutate: Individual[F, R]
 }
 
 // allows crossover
-trait Crossover[F, R, T <: Individual[F, R]] {
+trait Crossover[T <: Individual[_, _]] {
     def +(other: T): T
 }
