@@ -1,21 +1,30 @@
 import scala.annotation.tailrec
 
-// I is the individual type
-abstract class GeneticAlgorithm[I <: Individual[F ,_], F <% Ordered[F]](val pop_size: Int, val new_I: () => I) {
-    assume(pop_size > 0)
+object GeneticAlgorithm {
+    def new_population[I](pop_size: Int, new_I: () => I): Set[I] = {
+        assume(pop_size > 0)
+        (1 to pop_size).map(_ => new_I() ).toSet
+    }
+}
 
-    final val population: Set[I] = (1 to pop_size).map(_ => new_I()).toSet
+// I is the individual type
+abstract class GeneticAlgorithm[I <% Individual[F, _], F <% Ordered[F]](val population: Set[I]) {
 
     def iter: GeneticAlgorithm[I, F]
 
+    def clone_this(): GeneticAlgorithm[I, F]
+
     @tailrec
-    final def iter_num(N: Int): Object = {
-        assume(N > 0);
+    final def iter_num(N: Int): GeneticAlgorithm[I, F] = {
+        assume(N >= 0);
         if (N == 0)
-            this.clone()
+            clone_this()
         else
             iter.iter_num(N-1)
     }
 
     def fittest_individual = population.reduce((x, y) => if (x.fitness >= y.fitness) x else y)
+
+    // constructor with a new population
+    def this(pop_size: Int, new_I: () => I) = this(GeneticAlgorithm.new_population(pop_size, new_I))
 }
