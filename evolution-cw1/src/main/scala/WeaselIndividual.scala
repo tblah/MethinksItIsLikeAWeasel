@@ -10,8 +10,9 @@ object WeaselIndividual {
         vec map(c => c toString) reduce(_ + _)
     }
 
-    val alphabet = (('a' to 'z') toList) :+ ' '
+    val alphabet = (' ' to '~')
     val compare_string = "methinks it is like a weasel"
+    val perfect_fitness = compare_string length
 }
 
 class WeaselIndividual(_genes: String) extends Individual[Int, String] with Crossover[WeaselIndividual] {
