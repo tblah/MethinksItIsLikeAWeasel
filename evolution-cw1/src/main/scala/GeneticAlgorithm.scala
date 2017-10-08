@@ -9,6 +9,7 @@ object GeneticAlgorithm {
 
 // I is the individual type
 abstract class GeneticAlgorithm[I <: Individual[F, _], F <% Ordered[F]](val population: Set[I], val perfect_fitness: F, val num_iters: Int) {
+    assume(num_iters >= 0)
 
     protected def unchecked_iter(): GeneticAlgorithm[I, F]
 
@@ -36,7 +37,4 @@ abstract class GeneticAlgorithm[I <: Individual[F, _], F <% Ordered[F]](val popu
     def random_individual(): I = population.iterator.drop(scala.util.Random.nextInt(population.size)).next
 
     def fittest_individual = population.reduce((x, y) => if (x.fitness >= y.fitness) x else y)
-
-    // constructor with a new population
-    //def this(pop_size: Int, new_I: () => I, perfect_fitness: F) = this(GeneticAlgorithm.new_population(pop_size, new_I), perfect_fitness, 0)
 }

@@ -11,4 +11,6 @@ abstract class Individual[F <% Ordered[F], R] {
 // allows crossover
 trait Crossover[T <: Individual[_, _]] {
     def +(other: T): T
+
+    def crossover(other: T): T = this + other
 }

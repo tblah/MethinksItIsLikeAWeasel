@@ -1,6 +1,6 @@
 // steady state GA with tornament selection and no crossover
-class SteadyStateTournamentSelection[I <: Individual[F, _], F <% Ordered[F]](population: Set[Individual[F, _]], perfect_fitness: F, num_iters: Int)
-    extends GeneticAlgorithm[Individual[F, _], F](population, perfect_fitness, num_iters) {
+class SteadyStateTournamentSelection[I <: Individual[F, _], F <% Ordered[F]](population: Set[I], perfect_fitness: F, num_iters: Int)
+    extends GeneticAlgorithm(population, perfect_fitness, num_iters) {
 
     protected def unchecked_iter: SteadyStateTournamentSelection[I, F] = {
         // parents
@@ -17,8 +17,8 @@ class SteadyStateTournamentSelection[I <: Individual[F, _], F <% Ordered[F]](pop
 
         // replace with mutation of the best parent
         if (i1.fitness > i2.fitness)
-            new SteadyStateTournamentSelection[I, F](new_pop + i1.mutate, perfect_fitness, num_iters + 1)
+            new SteadyStateTournamentSelection[I, F](new_pop + i1.mutate.asInstanceOf[I], perfect_fitness, num_iters + 1)
         else
-            new SteadyStateTournamentSelection[I, F](new_pop + i2.mutate, perfect_fitness, num_iters + 1)
+            new SteadyStateTournamentSelection[I, F](new_pop + i2.mutate.asInstanceOf[I], perfect_fitness, num_iters + 1)
     }
 }
