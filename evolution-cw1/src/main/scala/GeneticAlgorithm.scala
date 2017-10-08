@@ -1,14 +1,14 @@
 import scala.annotation.tailrec
 
 object GeneticAlgorithm {
-    def new_population[I](pop_size: Int, new_I: () => I): Set[I] = {
+    def new_population[I](pop_size: Int, new_I: () => I): Vector[I] = {
         assume(pop_size > 0)
-        (1 to pop_size).map(_ => new_I() ).toSet
+        (1 to pop_size).map(_ => new_I() ).toVector
     }
 }
 
 // I is the individual type
-abstract class GeneticAlgorithm[I <: Individual[F, _], F <% Ordered[F]](val population: Set[I], val perfect_fitness: F, val num_iters: Int) {
+abstract class GeneticAlgorithm[I <: Individual[F, _], F <% Ordered[F]](val population: Vector[I], val perfect_fitness: F, val num_iters: Int) {
     assume(num_iters >= 0)
 
     protected def unchecked_iter(): GeneticAlgorithm[I, F]
@@ -34,7 +34,8 @@ abstract class GeneticAlgorithm[I <: Individual[F, _], F <% Ordered[F]](val popu
             iter().iter_until_done()
     }
 
-    def random_individual(): I = population.iterator.drop(scala.util.Random.nextInt(population.size)).next
+    def random_index() = scala.util.Random.nextInt(population.size)
+    def random_individual(): I = population(random_index())
 
     def fittest_individual = population.reduce((x, y) => if (x.fitness >= y.fitness) x else y)
 }
