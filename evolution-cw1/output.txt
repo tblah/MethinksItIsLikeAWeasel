@@ -1,0 +1,487 @@
+[info] Loading project definition from /home/lain/sync/homework/y4s1/evolution/cw1/evolution-cw1/project
+[info] Loading settings from build.sbt ...
+[info] Set current project to hello-world (in build file:/home/lain/sync/homework/y4s1/evolution/cw1/evolution-cw1/)
+[info] Compiling 1 Scala source to /home/lain/sync/homework/y4s1/evolution/cw1/evolution-cw1/target/scala-2.12/classes ...
+[info] Done compiling.
+[info] Running Main 
+pop_size = 100, mutation_rate ~= 1/18
+The Mutation Hill Climber took 8137 steps. Taking 3008 ms
+The Steady State Tornament took 40501 steps. Taking 325 ms
+The Crossover Steady State Tornament took 9563 steps. Taking 128 ms
+
+pop_size = 100, mutation_rate ~= 1/20
+The Mutation Hill Climber took 8909 steps. Taking 3052 ms
+The Steady State Tornament took 43977 steps. Taking 306 ms
+The Crossover Steady State Tornament took 13072 steps. Taking 129 ms
+
+pop_size = 100, mutation_rate ~= 1/22
+The Mutation Hill Climber took 8037 steps. Taking 2762 ms
+The Steady State Tornament took 35790 steps. Taking 257 ms
+The Crossover Steady State Tornament took 35232 steps. Taking 320 ms
+
+pop_size = 100, mutation_rate ~= 1/24
+The Mutation Hill Climber took 9845 steps. Taking 3360 ms
+The Steady State Tornament took 26648 steps. Taking 182 ms
+The Crossover Steady State Tornament took 13274 steps. Taking 123 ms
+
+pop_size = 100, mutation_rate ~= 1/26
+The Mutation Hill Climber took 11976 steps. Taking 4075 ms
+The Steady State Tornament took 36862 steps. Taking 255 ms
+The Crossover Steady State Tornament took 13185 steps. Taking 119 ms
+
+pop_size = 100, mutation_rate ~= 1/28
+The Mutation Hill Climber took 10166 steps. Taking 3474 ms
+The Steady State Tornament took 29080 steps. Taking 200 ms
+The Crossover Steady State Tornament took 21036 steps. Taking 190 ms
+
+pop_size = 100, mutation_rate ~= 1/30
+The Mutation Hill Climber took 9410 steps. Taking 3200 ms
+The Steady State Tornament took 27205 steps. Taking 185 ms
+The Crossover Steady State Tornament took 16053 steps. Taking 145 ms
+
+pop_size = 100, mutation_rate ~= 1/32
+The Mutation Hill Climber took 10190 steps. Taking 3430 ms
+The Steady State Tornament took 47961 steps. Taking 330 ms
+The Crossover Steady State Tornament took 15114 steps. Taking 136 ms
+
+pop_size = 100, mutation_rate ~= 1/34
+The Mutation Hill Climber took 10720 steps. Taking 3634 ms
+The Steady State Tornament took 45226 steps. Taking 309 ms
+The Crossover Steady State Tornament took 18905 steps. Taking 178 ms
+
+pop_size = 100, mutation_rate ~= 1/36
+The Mutation Hill Climber took 9343 steps. Taking 3180 ms
+The Steady State Tornament took 29430 steps. Taking 204 ms
+The Crossover Steady State Tornament took 41362 steps. Taking 370 ms
+
+pop_size = 100, mutation_rate ~= 1/38
+The Mutation Hill Climber took 10217 steps. Taking 3507 ms
+The Steady State Tornament took 33047 steps. Taking 226 ms
+The Crossover Steady State Tornament took 8379 steps. Taking 74 ms
+
+pop_size = 100, mutation_rate ~= 1/40
+The Mutation Hill Climber took 11614 steps. Taking 3905 ms
+The Steady State Tornament took 34217 steps. Taking 232 ms
+The Crossover Steady State Tornament took 17974 steps. Taking 160 ms
+
+pop_size = 200, mutation_rate ~= 1/18
+The Mutation Hill Climber took 7556 steps. Taking 5215 ms
+The Steady State Tornament took 83630 steps. Taking 843 ms
+The Crossover Steady State Tornament took 20848 steps. Taking 262 ms
+
+pop_size = 200, mutation_rate ~= 1/20
+The Mutation Hill Climber took 8134 steps. Taking 5587 ms
+The Steady State Tornament took 64319 steps. Taking 677 ms
+The Crossover Steady State Tornament took 6294 steps. Taking 78 ms
+
+pop_size = 200, mutation_rate ~= 1/22
+The Mutation Hill Climber took 8884 steps. Taking 6125 ms
+The Steady State Tornament took 52854 steps. Taking 528 ms
+The Crossover Steady State Tornament took 19514 steps. Taking 242 ms
+
+pop_size = 200, mutation_rate ~= 1/24
+The Mutation Hill Climber took 8442 steps. Taking 5886 ms
+The Steady State Tornament took 50668 steps. Taking 504 ms
+The Crossover Steady State Tornament took 10846 steps. Taking 133 ms
+
+pop_size = 200, mutation_rate ~= 1/26
+The Mutation Hill Climber took 9911 steps. Taking 6759 ms
+The Steady State Tornament took 48022 steps. Taking 487 ms
+The Crossover Steady State Tornament took 9651 steps. Taking 120 ms
+
+pop_size = 200, mutation_rate ~= 1/28
+The Mutation Hill Climber took 8525 steps. Taking 5831 ms
+The Steady State Tornament took 37890 steps. Taking 378 ms
+The Crossover Steady State Tornament took 12852 steps. Taking 157 ms
+
+pop_size = 200, mutation_rate ~= 1/30
+The Mutation Hill Climber took 8454 steps. Taking 5832 ms
+The Steady State Tornament took 38624 steps. Taking 385 ms
+The Crossover Steady State Tornament took 14483 steps. Taking 173 ms
+
+pop_size = 200, mutation_rate ~= 1/32
+The Mutation Hill Climber took 9297 steps. Taking 6343 ms
+The Steady State Tornament took 51291 steps. Taking 539 ms
+The Crossover Steady State Tornament took 20107 steps. Taking 247 ms
+
+pop_size = 200, mutation_rate ~= 1/34
+The Mutation Hill Climber took 9901 steps. Taking 6757 ms
+The Steady State Tornament took 50776 steps. Taking 505 ms
+The Crossover Steady State Tornament took 14212 steps. Taking 170 ms
+
+pop_size = 200, mutation_rate ~= 1/36
+The Mutation Hill Climber took 10272 steps. Taking 7066 ms
+The Steady State Tornament took 46674 steps. Taking 471 ms
+The Crossover Steady State Tornament took 25911 steps. Taking 315 ms
+
+pop_size = 200, mutation_rate ~= 1/38
+The Mutation Hill Climber took 7451 steps. Taking 5110 ms
+The Steady State Tornament took 50580 steps. Taking 514 ms
+The Crossover Steady State Tornament took 35904 steps. Taking 439 ms
+
+pop_size = 200, mutation_rate ~= 1/40
+The Mutation Hill Climber took 9127 steps. Taking 6193 ms
+The Steady State Tornament took 48576 steps. Taking 486 ms
+The Crossover Steady State Tornament took 15827 steps. Taking 194 ms
+
+pop_size = 300, mutation_rate ~= 1/18
+The Mutation Hill Climber took 6852 steps. Taking 7156 ms
+The Steady State Tornament took 69024 steps. Taking 903 ms
+The Crossover Steady State Tornament took 15499 steps. Taking 233 ms
+
+pop_size = 300, mutation_rate ~= 1/20
+The Mutation Hill Climber took 9192 steps. Taking 9587 ms
+The Steady State Tornament took 84831 steps. Taking 1118 ms
+The Crossover Steady State Tornament took 9996 steps. Taking 150 ms
+
+pop_size = 300, mutation_rate ~= 1/22
+The Mutation Hill Climber took 8856 steps. Taking 9069 ms
+The Steady State Tornament took 68526 steps. Taking 900 ms
+The Crossover Steady State Tornament took 22968 steps. Taking 349 ms
+
+pop_size = 300, mutation_rate ~= 1/24
+The Mutation Hill Climber took 8273 steps. Taking 8632 ms
+The Steady State Tornament took 88602 steps. Taking 1191 ms
+The Crossover Steady State Tornament took 15597 steps. Taking 237 ms
+
+pop_size = 300, mutation_rate ~= 1/26
+The Mutation Hill Climber took 8390 steps. Taking 8667 ms
+The Steady State Tornament took 94714 steps. Taking 1310 ms
+The Crossover Steady State Tornament took 15450 steps. Taking 234 ms
+
+pop_size = 300, mutation_rate ~= 1/28
+The Mutation Hill Climber took 9021 steps. Taking 9217 ms
+The Steady State Tornament took 54952 steps. Taking 717 ms
+The Crossover Steady State Tornament took 10040 steps. Taking 153 ms
+
+pop_size = 300, mutation_rate ~= 1/30
+The Mutation Hill Climber took 10153 steps. Taking 10417 ms
+The Steady State Tornament took 71703 steps. Taking 950 ms
+The Crossover Steady State Tornament took 13027 steps. Taking 197 ms
+
+pop_size = 300, mutation_rate ~= 1/32
+The Mutation Hill Climber took 10727 steps. Taking 10948 ms
+The Steady State Tornament took 53153 steps. Taking 692 ms
+The Crossover Steady State Tornament took 11455 steps. Taking 171 ms
+
+pop_size = 300, mutation_rate ~= 1/34
+The Mutation Hill Climber took 9720 steps. Taking 9940 ms
+The Steady State Tornament took 44655 steps. Taking 577 ms
+The Crossover Steady State Tornament took 13808 steps. Taking 211 ms
+
+pop_size = 300, mutation_rate ~= 1/36
+The Mutation Hill Climber took 8836 steps. Taking 9045 ms
+The Steady State Tornament took 52617 steps. Taking 684 ms
+The Crossover Steady State Tornament took 13656 steps. Taking 209 ms
+
+pop_size = 300, mutation_rate ~= 1/38
+The Mutation Hill Climber took 7729 steps. Taking 7911 ms
+The Steady State Tornament took 53381 steps. Taking 720 ms
+The Crossover Steady State Tornament took 20472 steps. Taking 310 ms
+
+pop_size = 300, mutation_rate ~= 1/40
+The Mutation Hill Climber took 7861 steps. Taking 8026 ms
+The Steady State Tornament took 48599 steps. Taking 677 ms
+The Crossover Steady State Tornament took 16005 steps. Taking 266 ms
+
+pop_size = 400, mutation_rate ~= 1/18
+The Mutation Hill Climber took 6612 steps. Taking 9217 ms
+The Steady State Tornament took 105922 steps. Taking 1771 ms
+The Crossover Steady State Tornament took 17813 steps. Taking 324 ms
+
+pop_size = 400, mutation_rate ~= 1/20
+The Mutation Hill Climber took 6442 steps. Taking 8894 ms
+The Steady State Tornament took 75550 steps. Taking 1232 ms
+The Crossover Steady State Tornament took 25231 steps. Taking 467 ms
+
+pop_size = 400, mutation_rate ~= 1/22
+The Mutation Hill Climber took 7147 steps. Taking 9878 ms
+The Steady State Tornament took 61980 steps. Taking 1013 ms
+The Crossover Steady State Tornament took 10563 steps. Taking 191 ms
+
+pop_size = 400, mutation_rate ~= 1/24
+The Mutation Hill Climber took 7203 steps. Taking 10069 ms
+The Steady State Tornament took 71387 steps. Taking 1186 ms
+The Crossover Steady State Tornament took 18324 steps. Taking 342 ms
+
+pop_size = 400, mutation_rate ~= 1/26
+The Mutation Hill Climber took 8581 steps. Taking 11808 ms
+The Steady State Tornament took 69466 steps. Taking 1125 ms
+The Crossover Steady State Tornament took 13955 steps. Taking 251 ms
+
+pop_size = 400, mutation_rate ~= 1/28
+The Mutation Hill Climber took 8894 steps. Taking 12205 ms
+The Steady State Tornament took 52724 steps. Taking 876 ms
+The Crossover Steady State Tornament took 15571 steps. Taking 289 ms
+
+pop_size = 400, mutation_rate ~= 1/30
+The Mutation Hill Climber took 6793 steps. Taking 9322 ms
+The Steady State Tornament took 61021 steps. Taking 981 ms
+The Crossover Steady State Tornament took 16942 steps. Taking 317 ms
+
+pop_size = 400, mutation_rate ~= 1/32
+The Mutation Hill Climber took 9156 steps. Taking 12408 ms
+The Steady State Tornament took 66268 steps. Taking 1077 ms
+The Crossover Steady State Tornament took 26791 steps. Taking 489 ms
+
+pop_size = 400, mutation_rate ~= 1/34
+The Mutation Hill Climber took 10481 steps. Taking 14119 ms
+The Steady State Tornament took 69254 steps. Taking 1122 ms
+The Crossover Steady State Tornament took 14961 steps. Taking 270 ms
+
+pop_size = 400, mutation_rate ~= 1/36
+The Mutation Hill Climber took 8864 steps. Taking 11984 ms
+The Steady State Tornament took 63106 steps. Taking 1016 ms
+The Crossover Steady State Tornament took 14008 steps. Taking 251 ms
+
+pop_size = 400, mutation_rate ~= 1/38
+The Mutation Hill Climber took 7594 steps. Taking 10436 ms
+The Steady State Tornament took 48491 steps. Taking 796 ms
+The Crossover Steady State Tornament took 17092 steps. Taking 319 ms
+
+pop_size = 400, mutation_rate ~= 1/40
+The Mutation Hill Climber took 6900 steps. Taking 9633 ms
+The Steady State Tornament took 50284 steps. Taking 833 ms
+The Crossover Steady State Tornament took 19297 steps. Taking 361 ms
+
+pop_size = 500, mutation_rate ~= 1/18
+The Mutation Hill Climber took 6771 steps. Taking 12114 ms
+The Steady State Tornament took 103877 steps. Taking 2057 ms
+The Crossover Steady State Tornament took 11228 steps. Taking 239 ms
+
+pop_size = 500, mutation_rate ~= 1/20
+The Mutation Hill Climber took 6888 steps. Taking 12132 ms
+The Steady State Tornament took 91713 steps. Taking 1821 ms
+The Crossover Steady State Tornament took 15002 steps. Taking 330 ms
+
+pop_size = 500, mutation_rate ~= 1/22
+The Mutation Hill Climber took 7743 steps. Taking 13584 ms
+The Steady State Tornament took 85392 steps. Taking 1710 ms
+The Crossover Steady State Tornament took 8558 steps. Taking 182 ms
+
+pop_size = 500, mutation_rate ~= 1/24
+The Mutation Hill Climber took 6926 steps. Taking 12092 ms
+The Steady State Tornament took 83115 steps. Taking 1700 ms
+The Crossover Steady State Tornament took 21544 steps. Taking 470 ms
+
+pop_size = 500, mutation_rate ~= 1/26
+The Mutation Hill Climber took 7390 steps. Taking 12957 ms
+The Steady State Tornament took 78861 steps. Taking 1580 ms
+The Crossover Steady State Tornament took 7310 steps. Taking 154 ms
+
+pop_size = 500, mutation_rate ~= 1/28
+The Mutation Hill Climber took 8303 steps. Taking 14548 ms
+The Steady State Tornament took 67843 steps. Taking 1385 ms
+The Crossover Steady State Tornament took 21176 steps. Taking 464 ms
+
+pop_size = 500, mutation_rate ~= 1/30
+The Mutation Hill Climber took 8614 steps. Taking 15021 ms
+The Steady State Tornament took 91528 steps. Taking 1842 ms
+The Crossover Steady State Tornament took 27504 steps. Taking 610 ms
+
+pop_size = 500, mutation_rate ~= 1/32
+The Mutation Hill Climber took 7258 steps. Taking 12616 ms
+The Steady State Tornament took 69204 steps. Taking 1368 ms
+The Crossover Steady State Tornament took 11166 steps. Taking 236 ms
+
+pop_size = 500, mutation_rate ~= 1/34
+The Mutation Hill Climber took 9140 steps. Taking 15848 ms
+The Steady State Tornament took 57357 steps. Taking 1134 ms
+The Crossover Steady State Tornament took 7825 steps. Taking 165 ms
+
+pop_size = 500, mutation_rate ~= 1/36
+The Mutation Hill Climber took 9597 steps. Taking 16681 ms
+The Steady State Tornament took 71580 steps. Taking 1421 ms
+The Crossover Steady State Tornament took 8512 steps. Taking 180 ms
+
+pop_size = 500, mutation_rate ~= 1/38
+The Mutation Hill Climber took 9258 steps. Taking 16151 ms
+The Steady State Tornament took 65413 steps. Taking 1295 ms
+The Crossover Steady State Tornament took 9863 steps. Taking 210 ms
+
+pop_size = 500, mutation_rate ~= 1/40
+The Mutation Hill Climber took 8625 steps. Taking 15027 ms
+The Steady State Tornament took 60125 steps. Taking 1184 ms
+The Crossover Steady State Tornament took 13801 steps. Taking 299 ms
+
+pop_size = 600, mutation_rate ~= 1/18
+The Mutation Hill Climber took 5631 steps. Taking 11888 ms
+The Steady State Tornament took 96449 steps. Taking 2209 ms
+The Crossover Steady State Tornament took 9260 steps. Taking 225 ms
+
+pop_size = 600, mutation_rate ~= 1/20
+The Mutation Hill Climber took 6393 steps. Taking 13494 ms
+The Steady State Tornament took 87477 steps. Taking 2008 ms
+The Crossover Steady State Tornament took 17402 steps. Taking 430 ms
+
+pop_size = 600, mutation_rate ~= 1/22
+The Mutation Hill Climber took 8749 steps. Taking 18403 ms
+The Steady State Tornament took 101521 steps. Taking 2356 ms
+The Crossover Steady State Tornament took 21706 steps. Taking 548 ms
+
+pop_size = 600, mutation_rate ~= 1/24
+The Mutation Hill Climber took 6465 steps. Taking 13687 ms
+The Steady State Tornament took 92233 steps. Taking 2166 ms
+The Crossover Steady State Tornament took 10594 steps. Taking 262 ms
+
+pop_size = 600, mutation_rate ~= 1/26
+The Mutation Hill Climber took 7084 steps. Taking 14924 ms
+The Steady State Tornament took 89849 steps. Taking 2124 ms
+The Crossover Steady State Tornament took 11253 steps. Taking 284 ms
+
+pop_size = 600, mutation_rate ~= 1/28
+The Mutation Hill Climber took 8818 steps. Taking 18363 ms
+The Steady State Tornament took 98472 steps. Taking 2294 ms
+The Crossover Steady State Tornament took 17430 steps. Taking 434 ms
+
+pop_size = 600, mutation_rate ~= 1/30
+The Mutation Hill Climber took 7954 steps. Taking 16587 ms
+The Steady State Tornament took 84976 steps. Taking 1982 ms
+The Crossover Steady State Tornament took 24653 steps. Taking 634 ms
+
+pop_size = 600, mutation_rate ~= 1/32
+The Mutation Hill Climber took 7484 steps. Taking 15721 ms
+The Steady State Tornament took 103816 steps. Taking 2423 ms
+The Crossover Steady State Tornament took 8057 steps. Taking 195 ms
+
+pop_size = 600, mutation_rate ~= 1/34
+The Mutation Hill Climber took 7718 steps. Taking 16199 ms
+The Steady State Tornament took 82846 steps. Taking 1950 ms
+The Crossover Steady State Tornament took 9644 steps. Taking 244 ms
+
+pop_size = 600, mutation_rate ~= 1/36
+The Mutation Hill Climber took 8394 steps. Taking 17544 ms
+The Steady State Tornament took 74885 steps. Taking 1717 ms
+The Crossover Steady State Tornament took 10334 steps. Taking 257 ms
+
+pop_size = 600, mutation_rate ~= 1/38
+The Mutation Hill Climber took 8638 steps. Taking 18091 ms
+The Steady State Tornament took 65062 steps. Taking 1488 ms
+The Crossover Steady State Tornament took 53640 steps. Taking 1397 ms
+
+pop_size = 600, mutation_rate ~= 1/40
+The Mutation Hill Climber took 9556 steps. Taking 19890 ms
+The Steady State Tornament took 78820 steps. Taking 1844 ms
+The Crossover Steady State Tornament took 7818 steps. Taking 195 ms
+
+pop_size = 700, mutation_rate ~= 1/18
+The Mutation Hill Climber took 4855 steps. Taking 11966 ms
+The Steady State Tornament took 143625 steps. Taking 3833 ms
+The Crossover Steady State Tornament took 14406 steps. Taking 408 ms
+
+pop_size = 700, mutation_rate ~= 1/20
+The Mutation Hill Climber took 7075 steps. Taking 17411 ms
+The Steady State Tornament took 119410 steps. Taking 3177 ms
+The Crossover Steady State Tornament took 21632 steps. Taking 636 ms
+
+pop_size = 700, mutation_rate ~= 1/22
+The Mutation Hill Climber took 6433 steps. Taking 15832 ms
+The Steady State Tornament took 92031 steps. Taking 2409 ms
+The Crossover Steady State Tornament took 12019 steps. Taking 357 ms
+
+pop_size = 700, mutation_rate ~= 1/24
+The Mutation Hill Climber took 8229 steps. Taking 20147 ms
+The Steady State Tornament took 80079 steps. Taking 2093 ms
+The Crossover Steady State Tornament took 9924 steps. Taking 293 ms
+
+pop_size = 700, mutation_rate ~= 1/26
+The Mutation Hill Climber took 8748 steps. Taking 21553 ms
+The Steady State Tornament took 94034 steps. Taking 2468 ms
+The Crossover Steady State Tornament took 17778 steps. Taking 504 ms
+
+pop_size = 700, mutation_rate ~= 1/28
+The Mutation Hill Climber took 7636 steps. Taking 18755 ms
+The Steady State Tornament took 79815 steps. Taking 2082 ms
+The Crossover Steady State Tornament took 18786 steps. Taking 530 ms
+
+pop_size = 700, mutation_rate ~= 1/30
+The Mutation Hill Climber took 6345 steps. Taking 15581 ms
+The Steady State Tornament took 85008 steps. Taking 2232 ms
+The Crossover Steady State Tornament took 9976 steps. Taking 276 ms
+
+pop_size = 700, mutation_rate ~= 1/32
+The Mutation Hill Climber took 8656 steps. Taking 21087 ms
+The Steady State Tornament took 88272 steps. Taking 2370 ms
+The Crossover Steady State Tornament took 17155 steps. Taking 484 ms
+
+pop_size = 700, mutation_rate ~= 1/34
+The Mutation Hill Climber took 9125 steps. Taking 22271 ms
+The Steady State Tornament took 81632 steps. Taking 2142 ms
+The Crossover Steady State Tornament took 11009 steps. Taking 306 ms
+
+pop_size = 700, mutation_rate ~= 1/36
+The Mutation Hill Climber took 8005 steps. Taking 19505 ms
+The Steady State Tornament took 85224 steps. Taking 2303 ms
+The Crossover Steady State Tornament took 9708 steps. Taking 273 ms
+
+pop_size = 700, mutation_rate ~= 1/38
+The Mutation Hill Climber took 9444 steps. Taking 23087 ms
+The Steady State Tornament took 73646 steps. Taking 1949 ms
+The Crossover Steady State Tornament took 8671 steps. Taking 243 ms
+
+pop_size = 700, mutation_rate ~= 1/40
+The Mutation Hill Climber took 9829 steps. Taking 24007 ms
+The Steady State Tornament took 85218 steps. Taking 2243 ms
+The Crossover Steady State Tornament took 8950 steps. Taking 253 ms
+
+pop_size = 800, mutation_rate ~= 1/18
+The Mutation Hill Climber took 7398 steps. Taking 20862 ms
+The Steady State Tornament took 125158 steps. Taking 3821 ms
+The Crossover Steady State Tornament took 15201 steps. Taking 489 ms
+
+pop_size = 800, mutation_rate ~= 1/20
+The Mutation Hill Climber took 6550 steps. Taking 18535 ms
+The Steady State Tornament took 129808 steps. Taking 3983 ms
+The Crossover Steady State Tornament took 12360 steps. Taking 388 ms
+
+pop_size = 800, mutation_rate ~= 1/22
+The Mutation Hill Climber took 5978 steps. Taking 16827 ms
+The Steady State Tornament took 113830 steps. Taking 3483 ms
+The Crossover Steady State Tornament took 14978 steps. Taking 472 ms
+
+pop_size = 800, mutation_rate ~= 1/24
+The Mutation Hill Climber took 6949 steps. Taking 19557 ms
+The Steady State Tornament took 118587 steps. Taking 3622 ms
+The Crossover Steady State Tornament took 16584 steps. Taking 523 ms
+
+pop_size = 800, mutation_rate ~= 1/26
+The Mutation Hill Climber took 8092 steps. Taking 22813 ms
+The Steady State Tornament took 131670 steps. Taking 4051 ms
+The Crossover Steady State Tornament took 15148 steps. Taking 479 ms
+
+pop_size = 800, mutation_rate ~= 1/28
+The Mutation Hill Climber took 7772 steps. Taking 21837 ms
+The Steady State Tornament took 115124 steps. Taking 3610 ms
+The Crossover Steady State Tornament took 17777 steps. Taking 575 ms
+
+pop_size = 800, mutation_rate ~= 1/30
+The Mutation Hill Climber took 8796 steps. Taking 24560 ms
+The Steady State Tornament took 98817 steps. Taking 2977 ms
+The Crossover Steady State Tornament took 11269 steps. Taking 362 ms
+
+pop_size = 800, mutation_rate ~= 1/32
+The Mutation Hill Climber took 7621 steps. Taking 21286 ms
+The Steady State Tornament took 112029 steps. Taking 3440 ms
+The Crossover Steady State Tornament took 11339 steps. Taking 359 ms
+
+pop_size = 800, mutation_rate ~= 1/34
+The Mutation Hill Climber took 8676 steps. Taking 24146 ms
+The Steady State Tornament took 91434 steps. Taking 2769 ms
+The Crossover Steady State Tornament took 13522 steps. Taking 425 ms
+
+pop_size = 800, mutation_rate ~= 1/36
+The Mutation Hill Climber took 7516 steps. Taking 20894 ms
+The Steady State Tornament took 106560 steps. Taking 3271 ms
+The Crossover Steady State Tornament took 10087 steps. Taking 316 ms
+
+pop_size = 800, mutation_rate ~= 1/38
+The Mutation Hill Climber took 8248 steps. Taking 22977 ms
+The Steady State Tornament took 105943 steps. Taking 3235 ms
+The Crossover Steady State Tornament took 29363 steps. Taking 966 ms
+
+pop_size = 800, mutation_rate ~= 1/40
+The Mutation Hill Climber took 9533 steps. Taking 26529 ms
+The Steady State Tornament took 93166 steps. Taking 2846 ms
+The Crossover Steady State Tornament took 10569 steps. Taking 332 ms
+
+[success] Total time: 1387 s, completed 14-Oct-2017 15:49:22
