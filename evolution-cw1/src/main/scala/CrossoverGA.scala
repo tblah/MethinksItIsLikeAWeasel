@@ -1,4 +1,3 @@
-import collection.immutable.ListSet
 // steady state GA with tornament selection *and crossover*
 class CrossoverGA[I <: Individual[F, _] with Crossover[I], F <% Ordered[F]](population: Vector[I], perfect_fitness: F, num_iters: Int)
     extends GeneticAlgorithm(population, perfect_fitness, num_iters) {
