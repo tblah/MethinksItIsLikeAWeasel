@@ -15,14 +15,14 @@ object WeaselIndividual {
     val perfect_fitness = compare_string length
 }
 
-class WeaselIndividual(_genes: String) extends Individual[Int, String] with Crossover[WeaselIndividual] {
-    assume(_genes.length == WeaselIndividual.compare_string.length)
+class WeaselIndividual(val representation: String, val mutation_probability: Double = 1.0/WeaselIndividual.compare_string.length) 
+  extends Individual[Int, String] with Crossover[WeaselIndividual] {
+    assume(representation.length == WeaselIndividual.compare_string.length)
 
-    val representation = _genes
     override def toString: String = "Individual(" + representation + ")"
 
     // the number of correct characters
-    def fitness: Int = {
+    lazy val fitness: Int = {
         val indices: List[Int] = (0 to WeaselIndividual.compare_string.length - 1).toList
         indices.map(i => (WeaselIndividual.compare_string(i) == representation(i)) match {
             case true => 1
@@ -32,7 +32,6 @@ class WeaselIndividual(_genes: String) extends Individual[Int, String] with Cros
 
     // for each character there is a 1/L chance that it is mutated
     def mutate: WeaselIndividual = {
-        val mutation_probability = 1.0/WeaselIndividual.compare_string.length
         val subs = representation.map(_ => Random.nextFloat() < mutation_probability match {
             case true => Some(WeaselIndividual.random_char)
             case false => None
@@ -41,7 +40,7 @@ class WeaselIndividual(_genes: String) extends Individual[Int, String] with Cros
             case Some(c) => c.toString
            case None => representation(i).toString
         }).reduce(_ + _)
-        new WeaselIndividual(genes)
+        new WeaselIndividual(genes, mutation_probability)
     }
 
     // crossover
@@ -49,10 +48,11 @@ class WeaselIndividual(_genes: String) extends Individual[Int, String] with Cros
         val genes: String = (0 to WeaselIndividual.compare_string.length - 1).map {
             i => if (Random.nextFloat() > 0.5) representation(i).toString else other.representation(i).toString
         }.reduce(_ + _)
-        new WeaselIndividual(genes)
+        new WeaselIndividual(genes, mutation_probability)
     }
 
-    // constructor
+    // constructors 
     def this() = this(WeaselIndividual.random_genes)
+    def this(mutation_rate: Double) = this(WeaselIndividual.random_genes, mutation_rate)
 }
 

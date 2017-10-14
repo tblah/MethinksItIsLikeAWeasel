@@ -13,7 +13,7 @@ abstract class GeneticAlgorithm[I <: Individual[F, _], F <% Ordered[F]](val popu
 
     protected def unchecked_iter(): GeneticAlgorithm[I, F]
 
-    def done = fittest_individual.fitness == perfect_fitness
+    lazy val done = fittest_individual.fitness == perfect_fitness
 
     def iter(): GeneticAlgorithm[I, F] = if (done) this else unchecked_iter()
 
@@ -37,5 +37,5 @@ abstract class GeneticAlgorithm[I <: Individual[F, _], F <% Ordered[F]](val popu
     def random_index() = scala.util.Random.nextInt(population.size)
     def random_individual(): I = population(random_index())
 
-    def fittest_individual = population.reduce((x, y) => if (x.fitness >= y.fitness) x else y)
+    lazy val fittest_individual = population.reduce((x, y) => if (x.fitness >= y.fitness) x else y)
 }

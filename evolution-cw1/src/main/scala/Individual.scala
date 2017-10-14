@@ -3,7 +3,7 @@
 // F is the fitness type
 // R is the representation type
 abstract class Individual[F <% Ordered[F], R] {
-    def fitness: F
+    val fitness: F
     val representation: R
     def mutate: Individual[F, R]
 }

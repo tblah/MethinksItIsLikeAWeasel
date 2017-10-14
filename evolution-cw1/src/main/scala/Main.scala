@@ -1,6 +1,6 @@
 object Main extends App {
     val pop_size = 500
-    val done_threashold = WeaselIndividual.perfect_fitness - 5 // allow 5 incorrect characters
+    val done_threashold = WeaselIndividual.perfect_fitness
     val pop: Vector[WeaselIndividual] = GeneticAlgorithm.new_population(500, () => new WeaselIndividual)
   
     def run_test(name: String, new_G: (Vector[WeaselIndividual], Int, Int) => GeneticAlgorithm[_, Int]) = {
